@@ -15,7 +15,7 @@ app.get('/', (req, res) => {
     }
   }
   const data = {
-    ipaddress: req.connection.remoteAdress || null,
+    ipaddress: req.headers['x-forwarded-for'] || null,
     language: req.headers['accept-language'].split(',')[0],
     software: fullOSInfo
   };
