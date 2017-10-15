@@ -1,0 +1,29 @@
+{
+  "name": "request-header-parser-ms",
+  "version": "1.0.0",
+  "description": "The app returns JSON which contains your ip, language and os",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeylRaytop/request-header-parser-ms.git"
+  },
+  "keywords": [
+    "api",
+    "freecodecamp",
+    "backend",
+    "json"
+  ],
+  "author": "Deyl Raytop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DeylRaytop/request-header-parser-ms/issues"
+  },
+  "homepage": "https://github.com/DeylRaytop/request-header-parser-ms#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
